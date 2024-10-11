@@ -1,0 +1,35 @@
+.report1_panel{
+    margin-top: 10px !important;
+}
+.eq{margin-top: 28px;}  
+.sub{margin-top: 22px;}
+.add{margin-top: 22px;}  
+.purchase label {
+    font-weight: 100; 
+    font-size: 12px;
+} 
+.balance_sheet label {
+    font-weight: 100; 
+    font-size: 12px;
+} 
+.cash_flow label {
+    font-weight: 100; 
+    font-size: 12px;
+} 
+.income label {
+    font-weight: 100; 
+    font-size: 12px;
+} 
+.purchaseByVendor label {
+    font-weight: 100; 
+    font-size: 12px;
+} 
+.panel-default>.panel-heading{
+    color: #ffebeb !important;
+    background-color: #282424 !important;
+    border-color: #515151 !important;
+}
+
+  
+  
+   

@@ -1,0 +1,172 @@
+/*******************************
+* Does not work properly if "in" is added after "collapse".
+* Get free snippets on bootpen.com
+*******************************/
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    /* border-color: #EEEEEE; */
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #fff;
+    background-color: #0985c6;
+    /* border-color: #EEEEEE; */
+}
+
+.panel-default > .panel-heading > .panel-title > a{
+    color:#fff;
+}
+
+.panel-title {
+    font-size: 18px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+
+/* ----- v CAN BE DELETED v ----- */
+body {
+/* background-color: #26a69a; */
+}
+
+.demo {
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.align-center{
+    display: flex; align-items: center; align-content: center;
+}
+
+.input-labels{
+    padding: 0 1rem;
+}
+.margin-off{
+    margin-left:0px;
+    margin-right: 0px;
+}
+.bordered-column{
+    border:1px solid #000;
+}
+.list-element{
+    border-bottom:1px solid;
+}
+.list-element:last-child{
+    border-bottom: 0px solid;
+}
+
+.border-bottom-custom{
+    border-bottom:1px solid;
+}
+
+.ordered-list{
+    padding-left: 1.4rem;
+    margin-bottom: 0px;
+}
+.border-right-col{
+    border-right: 1px solid #000;
+}
+
+.border-left-col{
+    border-left: 1px solid #000;
+}
+
+
+.custom-table{
+    width: 85%; margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.padding-up-down{
+    padding: 1rem 0rem;
+}
+.padding-off{
+    padding:0px;
+}
+
+.padding-custom{
+    padding: 0rem 1rem;
+}
+
+.padding-right-off{
+    padding-right:0px;
+}
+.padding-left-off{
+    padding-left:0px;
+}
+.form-control{
+    border:none;
+}
+.form-control:focus{
+    box-shadow:none;
+    border: transparent;
+}
+
+.padding-bottom-custom{
+    padding-bottom:1rem;
+}
+.table td, .table th{
+    padding:.5rem;
+}
+.text-align-custom{
+    text-align: center;
+}
+.section-strength-development-div{
+    width: 50%;
+}
+.input-half{
+    width: 50%;
+}
+.development-process-items{
+    width: 20%;
+}
+.development-process-inputs{
+    width: 20%;
+}
+
+@media(max-width:480px){
+    .development-process-items{
+        width: 50%;
+        /* padding-left: 1.2rem; */
+    }
+    .development-process-inputs{
+        width: 50%;
+    }
+}
+
+.evaluation-form-custom-container{
+    margin-bottom:4rem;
+}
+
+
+@media(max-width: 840px){
+    .custom-select-div{
+        padding-left: 8px;
+    }
+    .custom-select-div .custom-select{
+        font-size: 12px;
+    }
+}
+
+
+.section-heading{
+    background-color: #e77817;
+}
+
+.section-heading > div > h1 {
+    color: #fff;
+}

@@ -1,0 +1,20 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+p {
+
+font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Oswald', sans-serif;
+}
+.offer_box_wide{
+width:500px;
+height:106px;
+float:left;
+background-color:#f3f5f6;
+padding:10px;
+margin:7px;
+}
